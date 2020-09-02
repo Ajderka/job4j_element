@@ -19,14 +19,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4j_elementary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/job4j_elementary.iml" afterDir="false" />
+    <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="9.2. Checkstyle [#4123]">
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/job4j/converter/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/job4j/converter/Converter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,7 +50,20 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/checkstyle.xml" />
     <property name="settings.editor.selected.configurable" value="org.infernus.idea.checkstyle.CheckStyleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Converter">
+    <configuration name="Converter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.converter.Converter" />
+      <module name="job4j_elementary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.job4j.converter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Greeting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.Greeting" />
       <module name="job4j_elementary" />
@@ -56,8 +77,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Info" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.Info" />
+      <module name="job4j_elementary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.job4j.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Converter" />
+        <item itemvalue="Application.Info" />
         <item itemvalue="Application.Greeting" />
       </list>
     </recent_temporary>
@@ -71,6 +107,14 @@
       <option name="presentableId" value="Default" />
       <updated>1599025808050</updated>
     </task>
+    <task id="LOCAL-00001" summary="9.2. Checkstyle [#4123]">
+      <created>1599038197120</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599038197120</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -83,15 +127,40 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="9.2. Checkstyle [#4123]" />
+    <option name="LAST_COMMIT_MESSAGE" value="9.2. Checkstyle [#4123]" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="281" key="FileChooserDialogImpl" timestamp="1599026081288">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="281" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599026081288" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1599061389876">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599061389876" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1599061389876">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599061389876" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1599061389876">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599061389876" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1599061389876">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599061389876" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1599026094926">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599026094926" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599038199197">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599038199197" />
   </component>
 </project>
