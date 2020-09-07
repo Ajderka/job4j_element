@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="0. Операции сравнения [#235631]">
-      <change afterPath="$PROJECT_DIR$/src/ru/job4j/condition/AlertDivByZero.java" afterDir="false" />
+    <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="4.2. Тернарное сравнение [#189]">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/job4j/condition/Cinema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/job4j/condition/Cinema.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,33 +96,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Liken" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.Liken" />
-      <module name="job4j_elementary" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.job4j.condition.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.Tour" />
-      <module name="job4j_elementary" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.job4j.condition.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SqAreaTest.whereP8K4SquareThen168" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MaxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="job4j_elementary" />
       <extension name="coverage">
         <pattern>
@@ -131,8 +105,39 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.job4j.condition" />
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.SqAreaTest" />
-      <option name="METHOD_NAME" value="whereP8K4SquareThen168" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.MaxTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxTest.whenMax2To2Then2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="job4j_elementary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.job4j.condition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.job4j.condition" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.MaxTest" />
+      <option name="METHOD_NAME" value="whenMax2To2Then2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxTest.whenMax3To2Then3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="job4j_elementary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.job4j.condition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.job4j.condition" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.MaxTest" />
+      <option name="METHOD_NAME" value="whenMax3To2Then3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,10 +146,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Cinema" />
-        <item itemvalue="Application.Tour" />
+        <item itemvalue="JUnit.MaxTest.whenMax2To2Then2" />
+        <item itemvalue="JUnit.MaxTest.whenMax3To2Then3" />
+        <item itemvalue="JUnit.MaxTest" />
         <item itemvalue="Application.AlertDivByZero" />
-        <item itemvalue="Application.Liken" />
-        <item itemvalue="JUnit.SqAreaTest.whereP8K4SquareThen168" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +232,42 @@
       <option name="project" value="LOCAL" />
       <updated>1599134810724</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="4.1. Операторы ветвлений [#3611]">
+      <created>1599135035705</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1599135035705</updated>
+    </task>
+    <task id="LOCAL-00012" summary="4.1.0. Оператор if с блоком else [#227534]">
+      <created>1599135234548</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1599135234548</updated>
+    </task>
+    <task id="LOCAL-00013" summary="4.1.1. Операторы сравнения в String. [#237406]">
+      <created>1599135736119</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1599135736119</updated>
+    </task>
+    <task id="LOCAL-00014" summary="4.1.2. Глупый бот [#31323]">
+      <created>1599137953648</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1599137953648</updated>
+    </task>
+    <task id="LOCAL-00015" summary="4.2. Тернарное сравнение [#189]">
+      <created>1599463867064</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1599463867064</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -251,7 +291,12 @@
     <MESSAGE value="3. Тесты для определения расстояния между точками. [#159459]" />
     <MESSAGE value="4. Тесты для стороны прямоугольника. [#159460]" />
     <MESSAGE value="0. Операции сравнения [#235631]" />
-    <option name="LAST_COMMIT_MESSAGE" value="0. Операции сравнения [#235631]" />
+    <MESSAGE value="4.1. Операторы ветвлений [#3611]" />
+    <MESSAGE value="4.1.0. Оператор if с блоком else [#227534]" />
+    <MESSAGE value="4.1.1. Операторы сравнения в String. [#237406]" />
+    <MESSAGE value="4.1.2. Глупый бот [#31323]" />
+    <MESSAGE value="4.2. Тернарное сравнение [#189]" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.2. Тернарное сравнение [#189]" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1599074562016">
@@ -270,22 +315,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="281" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599026081288" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1599134992304">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1599466405750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599134992304" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1599134992303">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599466405750" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1599466405750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599134992303" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1599134992303">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599466405750" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1599466405750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599134992303" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1599134992304">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599466405750" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1599466405750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599134992304" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599466405750" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1599133565692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -310,13 +355,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="434" key="VCS.EditChangelistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599132947960" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599134813179">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599463896316">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599134813179" />
-    <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1599133005375">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599463896316" />
+    <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1599463670815">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599133005375" />
+    <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599463670814" />
   </component>
 </project>
