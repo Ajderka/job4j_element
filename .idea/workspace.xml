@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="4.2. Тернарное сравнение [#189]">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/job4j/condition/Cinema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/job4j/condition/Cinema.java" afterDir="false" />
+    <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="4.3.1. Оператор &amp;&amp; [#333783]">
+      <change afterPath="$PROJECT_DIR$/src/ru/job4j/condition/Club.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,9 +68,9 @@
       <recent name="junit.framework.TestCase" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Cinema">
-    <configuration name="AlertDivByZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.AlertDivByZero" />
+  <component name="RunManager" selected="Application.Club">
+    <configuration name="Cinema" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.Cinema" />
       <module name="job4j_elementary" />
       <extension name="coverage">
         <pattern>
@@ -83,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Cinema" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.Cinema" />
+    <configuration name="Club" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.Club" />
       <module name="job4j_elementary" />
       <extension name="coverage">
         <pattern>
@@ -145,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Club" />
         <item itemvalue="Application.Cinema" />
         <item itemvalue="JUnit.MaxTest.whenMax2To2Then2" />
         <item itemvalue="JUnit.MaxTest.whenMax3To2Then3" />
         <item itemvalue="JUnit.MaxTest" />
-        <item itemvalue="Application.AlertDivByZero" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +266,21 @@
       <option name="project" value="LOCAL" />
       <updated>1599463867064</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="4.2. Тернарное сравнение [#189]">
+      <created>1599466975565</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1599466975565</updated>
+    </task>
+    <task id="LOCAL-00017" summary="4.3.1. Оператор &amp;&amp; [#333783]">
+      <created>1599467026855</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1599467026855</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -296,7 +309,8 @@
     <MESSAGE value="4.1.1. Операторы сравнения в String. [#237406]" />
     <MESSAGE value="4.1.2. Глупый бот [#31323]" />
     <MESSAGE value="4.2. Тернарное сравнение [#189]" />
-    <option name="LAST_COMMIT_MESSAGE" value="4.2. Тернарное сравнение [#189]" />
+    <MESSAGE value="4.3.1. Оператор &amp;&amp; [#333783]" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.3.1. Оператор &amp;&amp; [#333783]" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1599074562016">
@@ -315,22 +329,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="281" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599026081288" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1599466405750">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1599466991635">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599466405750" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1599466405750">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599466991635" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1599466991635">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599466405750" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1599466405750">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599466991635" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1599466991635">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599466405750" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1599466405750">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599466991635" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1599466991635">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599466405750" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599466991635" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1599133565692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -355,10 +369,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="434" key="VCS.EditChangelistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599132947960" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599463896316">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599467033925">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599463896316" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599467033925" />
     <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1599463670815">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
