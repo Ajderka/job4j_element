@@ -6,12 +6,12 @@ public class MethodReference {
 
     public void applyByInstance() {
         MethodReference methodReference = new MethodReference();
-        Consumer<String> consumerByInstance = (value) -> methodReference.consumerByInstance(value);
+        Consumer<String> consumerByInstance = methodReference::consumerByInstance;
         consumerByInstance.accept("Hello");
     }
 
     public static void applyByClass() {
-        Consumer<String> consumerByClass = (value) -> MethodReference.consumerByClass(value);
+        Consumer<String> consumerByClass = MethodReference::consumerByClass;
         consumerByClass.accept("Hello");
     }
 
