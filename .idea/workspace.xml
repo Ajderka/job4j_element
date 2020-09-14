@@ -20,14 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="5.2. Создать программу, вычисляющую факториал. [#193]">
-      <change afterPath="$PROJECT_DIR$/src/ru/job4j/loop/Fitness.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/job4j/test/MRFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/job4j/test/OptionalGetAndIsPresent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ru/job4j/loop/FitnessTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ru/job4j/test/MRFunctionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ru/job4j/test/OptionalGetAndIsPresentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/job4j/loop/CheckPrimeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ru/job4j/loop/CheckPrimeNumberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/job4j/test/MethodReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/job4j/test/MethodReference.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,21 +78,8 @@
       <recent name="junit.framework.TestCase" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FitnessTest">
-    <configuration name="Board" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.loop.Board" />
-      <module name="job4j_elementary" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.job4j.loop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FactorialTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CheckPrimeNumberTest">
+    <configuration name="CheckPrimeNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="job4j_elementary" />
       <extension name="coverage">
         <pattern>
@@ -106,8 +88,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.job4j.loop" />
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.loop.FactorialTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.loop.CheckPrimeNumberTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckPrimeNumberTest.when5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="job4j_elementary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.job4j.loop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.job4j.loop" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.loop.CheckPrimeNumberTest" />
+      <option name="METHOD_NAME" value="when5" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -160,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CheckPrimeNumberTest" />
+        <item itemvalue="JUnit.CheckPrimeNumberTest.when5" />
         <item itemvalue="JUnit.FitnessTest" />
         <item itemvalue="JUnit.OptionalGetAndIsPresentTest" />
         <item itemvalue="JUnit.MRFunctionTest.test" />
-        <item itemvalue="Application.Board" />
-        <item itemvalue="JUnit.FactorialTest" />
       </list>
     </recent_temporary>
   </component>
@@ -451,22 +449,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="281" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599026081288" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1600025917737">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1600065926766">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600025917737" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1600025917737">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600065926766" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1600065926765">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600025917737" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1600025917736">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600065926765" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1600065926765">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600025917736" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1600025917737">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600065926765" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1600065926765">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600025917737" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600065926765" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1599758620192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -495,10 +493,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599757869000" />
-    <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1600027139657">
+    <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1600065051913">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600027139657" />
+    <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600065051913" />
     <state x="224" y="181" width="1736" height="856" key="dock-window-1" timestamp="1599757615446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
