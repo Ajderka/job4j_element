@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="5.5. Простое число [#171694]" />
+    <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="5.6. Простые числа [#156314]">
+      <change afterPath="$PROJECT_DIR$/src/ru/job4j/loop/Mortgage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ru/job4j/loop/MortgageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +78,7 @@
       <recent name="junit.framework.TestCase" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PrimeNumberTest">
+  <component name="RunManager" selected="JUnit.MortgageTest">
     <configuration name="CheckPrimeNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="job4j_elementary" />
       <extension name="coverage">
@@ -106,7 +110,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FitnessTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MortgageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="job4j_elementary" />
       <extension name="coverage">
         <pattern>
@@ -115,23 +119,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.job4j.loop" />
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.loop.FitnessTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.loop.MortgageTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptionalGetAndIsPresentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MortgageTest.when2Year" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="job4j_elementary" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.job4j.test.*" />
+          <option name="PATTERN" value="ru.job4j.loop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.job4j.test" />
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.test.OptionalGetAndIsPresentTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="ru.job4j.loop" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.loop.MortgageTest" />
+      <option name="METHOD_NAME" value="when2Year" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MortgageTest" />
+        <item itemvalue="JUnit.MortgageTest.when2Year" />
         <item itemvalue="JUnit.PrimeNumberTest" />
         <item itemvalue="JUnit.CheckPrimeNumberTest" />
         <item itemvalue="JUnit.CheckPrimeNumberTest.when5" />
-        <item itemvalue="JUnit.FitnessTest" />
-        <item itemvalue="JUnit.OptionalGetAndIsPresentTest" />
       </list>
     </recent_temporary>
   </component>
@@ -387,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600066053117</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="5.6. Простые числа [#156314]">
+      <created>1600070467543</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1600070467543</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -403,7 +415,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1.1. Входные данные в тесте [#297750]" />
     <MESSAGE value="2. Тесты для задачи &quot;идеальный вес&quot; [#159458]" />
     <MESSAGE value="3. Тесты для определения расстояния между точками. [#159459]" />
     <MESSAGE value="4. Тесты для стороны прямоугольника. [#159460]" />
@@ -428,7 +439,8 @@
     <MESSAGE value="5.1. Подсчет суммы чётных чисел в диапазоне [#192]" />
     <MESSAGE value="5.2. Создать программу, вычисляющую факториал. [#193]" />
     <MESSAGE value="5.5. Простое число [#171694]" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.5. Простое число [#171694]" />
+    <MESSAGE value="5.6. Простые числа [#156314]" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.6. Простые числа [#156314]" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1599074562016">
@@ -451,38 +463,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="281" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599026081288" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1600066023618">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1600071639380">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600066023618" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1600066023618">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600071639380" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1600071639380">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600066023618" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1600066023618">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600071639380" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1600071639380">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600066023618" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1600066023618">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600071639380" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1600071639380">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600066023618" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1599758620192">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600071639380" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1600071417770">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599758620192" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1599758620192">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600071417770" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1600071417770">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599758620192" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1599758620191">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600071417770" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1600071417770">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599758620191" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1599758620192">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600071417770" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1600071417770">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599758620192" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600071417770" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1599489510983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -491,14 +503,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="434" key="VCS.EditChangelistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599132947960" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600066056559">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600070469417">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600066056559" />
-    <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1600065051913">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600070469417" />
+    <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1600070687845">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600065051913" />
+    <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600070687845" />
     <state x="224" y="181" width="1736" height="856" key="dock-window-1" timestamp="1599757615446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -569,6 +581,11 @@
           <url>file://$PROJECT_DIR$/src/ru/job4j/test/Shell.java</url>
           <line>24</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ru/job4j/loop/Mortgage.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/ru/job4j/test/Shell.java</url>
