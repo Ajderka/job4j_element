@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="6.2.2. Переставить элементы массива [#226795]">
-      <change afterPath="$PROJECT_DIR$/src/ru/job4j/array/Turn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/job4j/test/IndexOf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ru/job4j/array/TurnTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ru/job4j/test/IndexOfTest.java" afterDir="false" />
+    <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="6.2.3. Перевернуть массив. [#226790]">
+      <change afterPath="$PROJECT_DIR$/src/ru/job4j/array/Check.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ru/job4j/array/CheckTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,8 +64,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="ru.job4j.test" />
       <recent name="ru.job4j.array" />
+      <recent name="ru.job4j.test" />
       <recent name="ru.job4j.loop" />
       <recent name="ru.job4j" />
       <recent name="ru.job4j.condition" />
@@ -80,7 +78,22 @@
       <recent name="junit.framework.TestCase" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IndexOfTest">
+  <component name="RunManager" selected="JUnit.CheckTest">
+    <configuration name="CheckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="job4j_elementary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.job4j.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.job4j.array" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.array.CheckTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IndexOfTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="job4j_elementary" />
       <extension name="coverage">
@@ -126,22 +139,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TurnTest.whenTurnArrayWithEvenAmountOfElementsThenTurnedArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="job4j_elementary" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.job4j.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.job4j.array" />
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.array.TurnTest" />
-      <option name="METHOD_NAME" value="whenTurnArrayWithEvenAmountOfElementsThenTurnedArray" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TurnTest.whenTurnArrayWithNotEvenAmountOfElementsThenTurnedArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="job4j_elementary" />
       <extension name="coverage">
@@ -160,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CheckTest" />
         <item itemvalue="JUnit.IndexOfTest" />
         <item itemvalue="JUnit.IndexOfWithCountTest" />
         <item itemvalue="JUnit.TurnTest" />
         <item itemvalue="JUnit.TurnTest.whenTurnArrayWithNotEvenAmountOfElementsThenTurnedArray" />
-        <item itemvalue="JUnit.TurnTest.whenTurnArrayWithEvenAmountOfElementsThenTurnedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -492,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600346197194</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="6.2.3. Перевернуть массив. [#226790]">
+      <created>1600355872929</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1600355872929</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -508,7 +512,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="4.3.5. Множественное логическое выражение И [#9461]" />
     <MESSAGE value="4.4. Вложенный оператор if else [#190]" />
     <MESSAGE value="4.5. Отладка программы в IDEA [#159464]" />
     <MESSAGE value="4.6.1. Switch [#334070]" />
@@ -533,7 +536,8 @@
     <MESSAGE value="6.2. Упорядочить массив. [#4441]" />
     <MESSAGE value="6.2.1. Выход за границу массива. [#226794]" />
     <MESSAGE value="6.2.2. Переставить элементы массива [#226795]" />
-    <option name="LAST_COMMIT_MESSAGE" value="6.2.2. Переставить элементы массива [#226795]" />
+    <MESSAGE value="6.2.3. Перевернуть массив. [#226790]" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.2.3. Перевернуть массив. [#226790]" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1599074562016">
@@ -596,14 +600,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="434" key="VCS.EditChangelistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599132947960" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600346198620">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600355874717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600346198620" />
-    <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1600355009652">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600355874717" />
+    <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1600356733679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600355009652" />
+    <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600356733679" />
     <state x="224" y="181" width="1736" height="856" key="dock-window-1" timestamp="1599757615446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
