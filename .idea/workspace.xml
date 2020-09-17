@@ -77,20 +77,7 @@
       <recent name="junit.framework.TestCase" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArraySquare">
-    <configuration name="ArrayDefinition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.array.ArrayDefinition" />
-      <module name="job4j_elementary" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.job4j.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ArraySquareTest.whenBound5Then014916">
     <configuration name="ArrayLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.job4j.array.ArrayLoop" />
       <module name="job4j_elementary" />
@@ -117,39 +104,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.live.Main" />
+    <configuration name="ArraySquareTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="job4j_elementary" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.job4j.live.*" />
+          <option name="PATTERN" value="ru.job4j.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="ru.job4j.array" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.array.ArraySquareTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Prime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.test.Prime" />
+    <configuration name="ArraySquareTest.whenBound5Then014916" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="job4j_elementary" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.job4j.test.*" />
+          <option name="PATTERN" value="ru.job4j.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="ru.job4j.array" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.array.ArraySquareTest" />
+      <option name="METHOD_NAME" value="whenBound5Then014916" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SquareTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="job4j_elementary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.job4j.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.job4j.array" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.array.SquareTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArraySquareTest.whenBound5Then014916" />
+        <item itemvalue="JUnit.ArraySquareTest" />
+        <item itemvalue="JUnit.SquareTest" />
         <item itemvalue="Application.ArraySquare" />
         <item itemvalue="Application.ArrayLoop" />
-        <item itemvalue="Application.ArrayDefinition" />
-        <item itemvalue="Application.Prime" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
