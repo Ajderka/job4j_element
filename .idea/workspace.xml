@@ -78,7 +78,20 @@
       <recent name="junit.framework.TestCase" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Prime">
+  <component name="RunManager" selected="Application.ArrayDefinition">
+    <configuration name="ArrayDefinition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.array.ArrayDefinition" />
+      <module name="job4j_elementary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.job4j.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.job4j.live.Main" />
       <module name="job4j_elementary" />
@@ -133,29 +146,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MortgageTest.when2Year" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="job4j_elementary" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.job4j.loop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.job4j.loop" />
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.loop.MortgageTest" />
-      <option name="METHOD_NAME" value="when2Year" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayDefinition" />
         <item itemvalue="Application.Prime" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Slash" />
         <item itemvalue="JUnit.MortgageTest" />
-        <item itemvalue="JUnit.MortgageTest.when2Year" />
       </list>
     </recent_temporary>
   </component>
