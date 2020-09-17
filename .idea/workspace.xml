@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="6.0.5. Массивы в тестах. [#226789]">
-      <change afterPath="$PROJECT_DIR$/test/ru/job4j/array/ArraySquareTest.java" afterDir="false" />
+    <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="6.1. Классический поиск перебором. [#33489]">
+      <change afterPath="$PROJECT_DIR$/src/ru/job4j/array/AlgoArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,9 +77,9 @@
       <recent name="junit.framework.TestCase" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FindLoopTest">
-    <configuration name="ArraySquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.array.ArraySquare" />
+  <component name="RunManager" selected="Application.AlgoArray">
+    <configuration name="AlgoArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.array.AlgoArray" />
       <module name="job4j_elementary" />
       <extension name="coverage">
         <pattern>
@@ -154,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AlgoArray" />
         <item itemvalue="JUnit.FindLoopTest" />
         <item itemvalue="JUnit.ArraySquareTest.whenBound5Then014916" />
         <item itemvalue="JUnit.ArraySquareTest" />
         <item itemvalue="JUnit.SquareTest" />
-        <item itemvalue="Application.ArraySquare" />
       </list>
     </recent_temporary>
   </component>
@@ -458,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600344107054</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="6.1. Классический поиск перебором. [#33489]">
+      <created>1600344357720</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1600344357720</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -474,7 +481,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="4.3.1. Оператор &amp;&amp; [#333783]" />
     <MESSAGE value="4.3.2. Оператор || [#333784]" />
     <MESSAGE value="4.3.3. Логическое отрицание ! [#334072]" />
     <MESSAGE value="4.3.4. if c return [#333785]" />
@@ -499,7 +505,8 @@
     <MESSAGE value="6.0.3.1. Массивы и цикл for-earch [#333581]" />
     <MESSAGE value="6.0.4. Заполнить массив степенями чисел. [#33488]" />
     <MESSAGE value="6.0.5. Массивы в тестах. [#226789]" />
-    <option name="LAST_COMMIT_MESSAGE" value="6.0.5. Массивы в тестах. [#226789]" />
+    <MESSAGE value="6.1. Классический поиск перебором. [#33489]" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.1. Классический поиск перебором. [#33489]" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1599074562016">
@@ -522,22 +529,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="281" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599026081288" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1600344070601">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1600344702274">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600344070601" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1600344070601">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600344702274" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1600344702274">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600344070601" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1600344070601">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600344702274" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1600344702274">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600344070601" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1600344070601">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600344702274" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1600344702274">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600344070601" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600344702274" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1600334556820">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -562,14 +569,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="434" key="VCS.EditChangelistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599132947960" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600344108389">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600344359335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600344108389" />
-    <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1600343852089">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600344359335" />
+    <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1600344506452">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600343852089" />
+    <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600344506452" />
     <state x="224" y="181" width="1736" height="856" key="dock-window-1" timestamp="1599757615446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
