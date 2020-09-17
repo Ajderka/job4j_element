@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="6.0.2. Заполнение массива. [#226300]">
-      <change afterPath="$PROJECT_DIR$/src/ru/job4j/array/ArrayLoop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="6.0.3. Массивы и цикл for. [#226665]">
+      <change beforePath="$PROJECT_DIR$/src/ru/job4j/array/ArrayLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/job4j/array/ArrayLoop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -421,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600335023960</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="6.0.3. Массивы и цикл for. [#226665]">
+      <created>1600343347101</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1600343347101</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -437,7 +443,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="4.1.0. Оператор if с блоком else [#227534]" />
     <MESSAGE value="4.1.1. Операторы сравнения в String. [#237406]" />
     <MESSAGE value="4.1.2. Глупый бот [#31323]" />
     <MESSAGE value="4.2. Тернарное сравнение [#189]" />
@@ -462,7 +467,8 @@
     <MESSAGE value="6.0.1. Объявление массива. [#3613]" />
     <MESSAGE value="6.0.1.1. Размер массива [#333582]" />
     <MESSAGE value="6.0.2. Заполнение массива. [#226300]" />
-    <option name="LAST_COMMIT_MESSAGE" value="6.0.2. Заполнение массива. [#226300]" />
+    <MESSAGE value="6.0.3. Массивы и цикл for. [#226665]" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.0.3. Массивы и цикл for. [#226665]" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1599074562016">
@@ -485,22 +491,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="281" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599026081288" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1600335003902">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1600343490649">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600335003902" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1600335003901">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600343490649" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1600343490649">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600335003901" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1600335003901">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600343490649" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1600343490649">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600335003901" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1600335003902">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600343490649" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1600343490649">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600335003902" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600343490649" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1600334556820">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -525,10 +531,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="434" key="VCS.EditChangelistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599132947960" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600335031876">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600343450852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600335031876" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600343450852" />
     <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1600070687845">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
