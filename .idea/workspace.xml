@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="6.6.4. Размер элемента двухмерного массива. [#333583]">
-      <change afterPath="$PROJECT_DIR$/src/ru/job4j/array/Matrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ru/job4j/array/MatrixTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="6.6.8. Двухмерный массив. Таблица умножения. [#33491]">
+      <change afterPath="$PROJECT_DIR$/src/ru/job4j/array/MatrixCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ru/job4j/array/MatrixCheckTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +77,7 @@
       <recent name="junit.framework.TestCase" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MatrixTest">
+  <component name="RunManager" selected="JUnit.MatrixCheckTest">
     <configuration name="LengthArrayArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.job4j.array.LengthArrayArrays" />
       <module name="job4j_elementary" />
@@ -92,7 +91,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrixSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MatrixCheckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="job4j_elementary" />
       <extension name="coverage">
         <pattern>
@@ -101,8 +100,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.job4j.array" />
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.array.MatrixSumTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.array.MatrixCheckTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MatrixCheckTest.whenHasMonoHorizontal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="job4j_elementary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.job4j.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.job4j.array" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.array.MatrixCheckTest" />
+      <option name="METHOD_NAME" value="whenHasMonoHorizontal" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,28 +153,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SkipNegativeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="job4j_elementary" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.job4j.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.job4j.array" />
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.array.SkipNegativeTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MatrixCheckTest" />
+        <item itemvalue="JUnit.MatrixCheckTest.whenHasMonoHorizontal" />
         <item itemvalue="JUnit.MatrixTest" />
         <item itemvalue="JUnit.MatrixTest.when9on9" />
         <item itemvalue="Application.LengthArrayArrays" />
-        <item itemvalue="JUnit.SkipNegativeTest" />
-        <item itemvalue="JUnit.MatrixSumTest" />
       </list>
     </recent_temporary>
   </component>
@@ -171,13 +171,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599025808050</updated>
-    </task>
-    <task id="LOCAL-00010" summary="0. Операции сравнения [#235631]">
-      <created>1599134810724</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1599134810724</updated>
     </task>
     <task id="LOCAL-00011" summary="4.1. Операторы ветвлений [#3611]">
       <created>1599135035705</created>
@@ -515,7 +508,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600620497780</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="6.6.8. Двухмерный массив. Таблица умножения. [#33491]">
+      <created>1600621174682</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1600621174683</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -531,7 +531,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5.9. Крест в псевдографике. [#177182]" />
     <MESSAGE value="6.0.1. Объявление массива. [#3613]" />
     <MESSAGE value="6.0.1.1. Размер массива [#333582]" />
     <MESSAGE value="6.0.2. Заполнение массива. [#226300]" />
@@ -556,7 +555,8 @@
     <MESSAGE value="6.6.2. Двухмерный массив. Циклы. [#306725]" />
     <MESSAGE value="6.6.3. Двухмерный массив. If. [#306727]" />
     <MESSAGE value="6.6.4. Размер элемента двухмерного массива. [#333583]" />
-    <option name="LAST_COMMIT_MESSAGE" value="6.6.4. Размер элемента двухмерного массива. [#333583]" />
+    <MESSAGE value="6.6.8. Двухмерный массив. Таблица умножения. [#33491]" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.6.8. Двухмерный массив. Таблица умножения. [#33491]" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1599074562016">
@@ -583,22 +583,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="281" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599026081288" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1600620783213">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1600621156891">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600620783213" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1600620783213">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600621156891" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1600621156891">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600620783213" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1600620783213">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600621156891" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1600621156891">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600620783213" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1600620783213">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600621156891" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1600621156891">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600620783213" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600621156891" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1600619735923">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -623,14 +623,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="434" key="VCS.EditChangelistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599132947960" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600620500020">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600621176549">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600620500020" />
-    <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1600620605011">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600621176549" />
+    <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1600621246473">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600620605011" />
+    <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600621246473" />
     <state x="224" y="181" width="1736" height="856" key="dock-window-1" timestamp="1599757615446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
