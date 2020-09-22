@@ -19,13 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="6.6.8. Двухмерный массив. Таблица умножения. [#33491]">
-      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="6.7.2. Моно столбец в матрице. [#214127]">
       <change beforePath="$PROJECT_DIR$/src/ru/job4j/array/MatrixCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/job4j/array/MatrixCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/job4j/test/TriangleMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/job4j/array/TriangleMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/ru/job4j/array/MatrixCheckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ru/job4j/array/MatrixCheckTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ru/job4j/test/TriangleMatrixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ru/job4j/array/TriangleMatrixTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,13 +174,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599025808050</updated>
-    </task>
-    <task id="LOCAL-00011" summary="4.1. Операторы ветвлений [#3611]">
-      <created>1599135035705</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1599135035705</updated>
     </task>
     <task id="LOCAL-00012" summary="4.1.0. Оператор if с блоком else [#227534]">
       <created>1599135234548</created>
@@ -522,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600621174683</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="6.7.2. Моно столбец в матрице. [#214127]">
+      <created>1600757385098</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1600757385099</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -538,7 +534,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="6.0.1. Объявление массива. [#3613]" />
     <MESSAGE value="6.0.1.1. Размер массива [#333582]" />
     <MESSAGE value="6.0.2. Заполнение массива. [#226300]" />
     <MESSAGE value="6.0.3. Массивы и цикл for. [#226665]" />
@@ -563,7 +558,8 @@
     <MESSAGE value="6.6.3. Двухмерный массив. If. [#306727]" />
     <MESSAGE value="6.6.4. Размер элемента двухмерного массива. [#333583]" />
     <MESSAGE value="6.6.8. Двухмерный массив. Таблица умножения. [#33491]" />
-    <option name="LAST_COMMIT_MESSAGE" value="6.6.8. Двухмерный массив. Таблица умножения. [#33491]" />
+    <MESSAGE value="6.7.2. Моно столбец в матрице. [#214127]" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.7.2. Моно столбец в матрице. [#214127]" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1599074562016">
@@ -630,10 +626,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="434" key="VCS.EditChangelistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599132947960" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600621176549">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600757387054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600621176549" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600757387054" />
     <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1600621246473">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
