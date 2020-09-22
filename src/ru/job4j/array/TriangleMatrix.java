@@ -1,4 +1,4 @@
-package ru.job4j.test;
+package ru.job4j.array;
 
 public class TriangleMatrix {
     public static int[][] rows(int count) {
