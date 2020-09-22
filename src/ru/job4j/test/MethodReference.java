@@ -3,7 +3,6 @@ package ru.job4j.test;
 import java.util.function.Consumer;
 
 public class MethodReference {
-
     public void applyByInstance() {
         MethodReference methodReference = new MethodReference();
         Consumer<String> consumerByInstance = methodReference::consumerByInstance;

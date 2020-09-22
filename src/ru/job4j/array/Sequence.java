@@ -12,7 +12,6 @@ public class Sequence {
         massive[2][0] = 7;
         massive[2][1] = 8;
         massive[2][2] = 9;
-
         for (int[] mas : massive) {
             for (int m : mas) {
                 System.out.println(m);

@@ -1,7 +1,6 @@
 package ru.job4j.condition;
 
 public class Tour {
-
     public static void offer(boolean passport) {
         System.out.println("A client has foreign password : " + passport);
         if (passport) {
