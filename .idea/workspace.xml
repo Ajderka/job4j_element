@@ -20,10 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="1.1.1. Конструктор по умолчанию [#173889]">
-      <change afterPath="$PROJECT_DIR$/src/ru/job4j/oop/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/job4j/test/Json.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ru/job4j/test/JsonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/job4j/oop/JukeBox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/job4j/oop/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/job4j/oop/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +79,20 @@
       <recent name="junit.framework.TestCase" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Student">
+  <component name="RunManager" selected="Application.JukeBox">
+    <configuration name="JukeBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.oop.JukeBox" />
+      <module name="job4j_elementary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.job4j.oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Prime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.job4j.test.Prime" />
       <module name="job4j_elementary" />
@@ -138,28 +150,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MachineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="job4j_elementary" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.job4j.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.job4j.array" />
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.array.MachineTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JukeBox" />
         <item itemvalue="Application.Student" />
         <item itemvalue="JUnit.JsonTest" />
         <item itemvalue="JUnit.JsonTest.test" />
         <item itemvalue="Application.Prime" />
-        <item itemvalue="JUnit.MachineTest" />
       </list>
     </recent_temporary>
   </component>
@@ -171,13 +168,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599025808050</updated>
-    </task>
-    <task id="LOCAL-00019" summary="4.3.3. Логическое отрицание ! [#334072]">
-      <created>1599470094139</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1599470094139</updated>
     </task>
     <task id="LOCAL-00020" summary="4.3.4. if c return [#333785]">
       <created>1599470756890</created>
@@ -515,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600845186830</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="1.1.1. Конструктор по умолчанию [#173889]">
+      <created>1600858231582</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1600858231582</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -583,22 +580,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="281" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599026081288" />
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1600858210031">
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1600858673054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600858210031" />
-    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1600858210031">
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600858673054" />
+    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1600858673054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600858210031" />
-    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1600858210031">
+    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600858673054" />
+    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1600858673054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600858210031" />
-    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1600858210031">
+    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600858673054" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1600858673054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600858210031" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600858673054" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1600856062147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -623,10 +620,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="434" key="VCS.EditChangelistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599132947960" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600845188317">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600858234882">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600845188317" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600858234882" />
     <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1600847614291">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
