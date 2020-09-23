@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="6.9. Жадный алгоритм. Сдача в кофе машине [#34741]" />
+    <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="1.1. Создание объекта [#165452]">
+      <change afterPath="$PROJECT_DIR$/src/ru/job4j/oop/Bug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/job4j/oop/Fix.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,8 +33,8 @@
       <list>
         <option value="JUnit3 Test Class" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -166,13 +169,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599025808050</updated>
-    </task>
-    <task id="LOCAL-00017" summary="4.3.1. Оператор &amp;&amp; [#333783]">
-      <created>1599467026855</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1599467026855</updated>
     </task>
     <task id="LOCAL-00018" summary="4.3.2. Оператор || [#333784]">
       <created>1599469661778</created>
@@ -510,7 +506,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600790289605</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="1.1. Создание объекта [#165452]">
+      <created>1600845060395</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1600845060395</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -526,7 +529,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="6.0.4. Заполнить массив степенями чисел. [#33488]" />
     <MESSAGE value="6.0.5. Массивы в тестах. [#226789]" />
     <MESSAGE value="6.1. Классический поиск перебором. [#33489]" />
     <MESSAGE value="6.2. Упорядочить массив. [#4441]" />
@@ -551,7 +553,8 @@
     <MESSAGE value="6.7.4. Выигрышные комбинации в сокобан [#53859]" />
     <MESSAGE value="6.8. Дефрагментация массива [#225]" />
     <MESSAGE value="6.9. Жадный алгоритм. Сдача в кофе машине [#34741]" />
-    <option name="LAST_COMMIT_MESSAGE" value="6.9. Жадный алгоритм. Сдача в кофе машине [#34741]" />
+    <MESSAGE value="1.1. Создание объекта [#165452]" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.1. Создание объекта [#165452]" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1599074562016">
