@@ -19,28 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="6.9. Жадный алгоритм. Сдача в кофе машине [#34741]">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/job4j/array/AlgoArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/job4j/array/AlgoArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/job4j/array/ArrayDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/job4j/array/ArrayDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/job4j/array/FindLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/job4j/array/FindLoop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/job4j/array/Machine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/job4j/array/Machine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/job4j/array/Min.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/job4j/array/Min.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/job4j/array/MinDiapason.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/job4j/array/MinDiapason.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/job4j/array/Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/job4j/array/Sequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/job4j/array/SortSelected.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/job4j/array/SortSelected.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/job4j/calculate/X2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/job4j/calculate/X2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/job4j/condition/Cinema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/job4j/condition/Cinema.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/job4j/condition/DummyBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/job4j/condition/DummyBot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/job4j/condition/Liken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/job4j/condition/Liken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/job4j/condition/LogicNot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/job4j/condition/LogicNot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/job4j/condition/MultipleSwitchWeek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/job4j/condition/MultipleSwitchWeek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/job4j/condition/SwitchWeek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/job4j/condition/SwitchWeek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/job4j/condition/Tour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/job4j/condition/Tour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/job4j/loop/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/job4j/loop/Counter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/job4j/test/MethodReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/job4j/test/MethodReference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/job4j/test/Prime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/job4j/test/Prime.java" afterDir="false" />
-    </list>
+    <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="6.9. Жадный алгоритм. Сдача в кофе машине [#34741]" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -187,13 +166,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599025808050</updated>
-    </task>
-    <task id="LOCAL-00016" summary="4.2. Тернарное сравнение [#189]">
-      <created>1599466975565</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1599466975565</updated>
     </task>
     <task id="LOCAL-00017" summary="4.3.1. Оператор &amp;&amp; [#333783]">
       <created>1599467026855</created>
@@ -531,7 +503,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600762600818</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="6.9. Жадный алгоритм. Сдача в кофе машине [#34741]">
+      <created>1600790289605</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1600790289605</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -599,22 +578,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="281" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599026081288" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1600776804050">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1600790485447">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600776804050" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1600776804050">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600790485447" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1600790485447">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600776804050" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1600776804050">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600790485447" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1600790485447">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600776804050" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1600776804050">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600790485447" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1600790485447">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600776804050" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600790485447" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1600776804050">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -639,10 +618,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="434" key="VCS.EditChangelistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599132947960" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600762602354">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600790294165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600762602354" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600790294165" />
     <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1600759585563">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -651,86 +630,5 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="224" y="181" width="1736" height="856" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1599757615446" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/ru/job4j/test/Shell.java</url>
-          <line>6</line>
-          <properties class="ru.job4j.test.Shell" method="cd">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ru/job4j/test/Shell.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ru/job4j/test/Shell.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ru/job4j/test/Shell.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ru/job4j/test/Shell.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ru/job4j/test/Shell.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ru/job4j/test/Shell.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ru/job4j/test/Shell.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ru/job4j/test/Shell.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ru/job4j/test/Shell.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ru/job4j/test/Shell.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ru/job4j/test/Shell.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/ru/job4j/test/Shell.java</url>
-          <line>3</line>
-          <properties field="str" class="ru.job4j.test.Shell" />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/ru/job4j/test/Shell.java</url>
-          <line>4</line>
-          <properties field="mass" class="ru.job4j.test.Shell" />
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
