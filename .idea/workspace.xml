@@ -19,17 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="1.5. Поля объекта [#166083]">
-      <change afterPath="$PROJECT_DIR$/src/ru/job4j/oop/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/job4j/oop/Ball.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/job4j/oop/BallStory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/job4j/oop/Fox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/job4j/oop/Girl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/job4j/oop/Hare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/job4j/oop/Pioneer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/job4j/oop/Story.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/job4j/oop/Wolf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/job4j/oop/Wolfer.java" afterDir="false" />
+    <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="1.6. Взаимодействие объектов [#166087]">
+      <change afterPath="$PROJECT_DIR$/src/ru/job4j/oop/Battery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/job4j/oop/Jar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +79,20 @@
       <recent name="junit.framework.TestCase" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Story">
+  <component name="RunManager" selected="Application.Battery">
+    <configuration name="Battery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.oop.Battery" />
+      <module name="job4j_elementary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.job4j.oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Cat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.job4j.oop.Cat" />
       <module name="job4j_elementary" />
@@ -114,8 +119,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JukeBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.oop.JukeBox" />
+    <configuration name="Jar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.oop.Jar" />
       <module name="job4j_elementary" />
       <extension name="coverage">
         <pattern>
@@ -140,26 +145,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.oop.Student" />
-      <module name="job4j_elementary" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.job4j.oop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Battery" />
+        <item itemvalue="Application.Jar" />
         <item itemvalue="Application.Story" />
         <item itemvalue="Application.Cat" />
         <item itemvalue="Application.DummyDic" />
-        <item itemvalue="Application.JukeBox" />
-        <item itemvalue="Application.Student" />
       </list>
     </recent_temporary>
   </component>
@@ -171,13 +163,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599025808050</updated>
-    </task>
-    <task id="LOCAL-00023" summary="4.5. Отладка программы в IDEA [#159464]">
-      <created>1599488141568</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1599488141568</updated>
     </task>
     <task id="LOCAL-00024" summary="4.6.1. Switch [#334070]">
       <created>1599489411864</created>
@@ -515,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600868014697</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="1.6. Взаимодействие объектов [#166087]">
+      <created>1600877298798</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1600877298798</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -531,7 +523,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="6.2.2. Переставить элементы массива [#226795]" />
     <MESSAGE value="6.2.3. Перевернуть массив. [#226790]" />
     <MESSAGE value="6.4. Слово начинается с ... [#41585]" />
     <MESSAGE value="6.4.1. Сравнить последние элементы двух массивов [#304228]" />
@@ -556,17 +547,18 @@
     <MESSAGE value="1.3. Вызов метода с аргументами. [#166086]" />
     <MESSAGE value="1.4. Вызов метода с возвращаемым типом. [#167387]" />
     <MESSAGE value="1.5. Поля объекта [#166083]" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.5. Поля объекта [#166083]" />
+    <MESSAGE value="1.6. Взаимодействие объектов [#166087]" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.6. Взаимодействие объектов [#166087]" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1599074562016">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599074562016" />
-    <state x="721" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1599075368051">
+    <state x="721" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1600877560575">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="721" y="221" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1599075368051" />
+    <state x="721" y="221" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600877560575" />
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1600619151590">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -583,22 +575,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="281" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599026081288" />
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1600876771969">
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1600877826683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600876771969" />
-    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1600876771969">
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600877826683" />
+    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1600877826683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600876771969" />
-    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1600876771969">
+    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600877826683" />
+    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1600877826683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600876771969" />
-    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1600876771969">
+    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600877826683" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1600877826683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600876771969" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600877826683" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1600856062147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -623,10 +615,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="434" key="VCS.EditChangelistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599132947960" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600868016111">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600877307491">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600868016111" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600877307491" />
     <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1600847614291">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
