@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="1.1.1. Конструктор по умолчанию [#173889]">
-      <change afterPath="$PROJECT_DIR$/src/ru/job4j/oop/JukeBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/job4j/oop/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/job4j/oop/Student.java" afterDir="false" />
-    </list>
+    <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="1.3. Вызов метода с аргументами. [#166086]" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,9 +75,9 @@
       <recent name="junit.framework.TestCase" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JukeBox">
-    <configuration name="JukeBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.oop.JukeBox" />
+  <component name="RunManager" selected="Application.DummyDic">
+    <configuration name="DummyDic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.oop.DummyDic" />
       <module name="job4j_elementary" />
       <extension name="coverage">
         <pattern>
@@ -93,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Prime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.test.Prime" />
+    <configuration name="JukeBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.oop.JukeBox" />
       <module name="job4j_elementary" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.job4j.test.*" />
+          <option name="PATTERN" value="ru.job4j.oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DummyDic" />
         <item itemvalue="Application.JukeBox" />
         <item itemvalue="Application.Student" />
         <item itemvalue="JUnit.JsonTest" />
         <item itemvalue="JUnit.JsonTest.test" />
-        <item itemvalue="Application.Prime" />
       </list>
     </recent_temporary>
   </component>
@@ -168,13 +164,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599025808050</updated>
-    </task>
-    <task id="LOCAL-00020" summary="4.3.4. if c return [#333785]">
-      <created>1599470756890</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1599470756890</updated>
     </task>
     <task id="LOCAL-00021" summary="4.3.5. Множественное логическое выражение И [#9461]">
       <created>1599482013957</created>
@@ -512,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600858231582</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="1.3. Вызов метода с аргументами. [#166086]">
+      <created>1600859211629</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1600859211629</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -528,7 +524,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="6.1. Классический поиск перебором. [#33489]" />
     <MESSAGE value="6.2. Упорядочить массив. [#4441]" />
     <MESSAGE value="6.2.1. Выход за границу массива. [#226794]" />
     <MESSAGE value="6.2.2. Переставить элементы массива [#226795]" />
@@ -553,7 +548,8 @@
     <MESSAGE value="6.9. Жадный алгоритм. Сдача в кофе машине [#34741]" />
     <MESSAGE value="1.1. Создание объекта [#165452]" />
     <MESSAGE value="1.1.1. Конструктор по умолчанию [#173889]" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.1.1. Конструктор по умолчанию [#173889]" />
+    <MESSAGE value="1.3. Вызов метода с аргументами. [#166086]" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.3. Вызов метода с аргументами. [#166086]" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1599074562016">
@@ -620,10 +616,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="434" key="VCS.EditChangelistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599132947960" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600858234882">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600859213350">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600858234882" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600859213350" />
     <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1600847614291">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
