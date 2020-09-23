@@ -19,9 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="1.1. Создание объекта [#165452]">
-      <change afterPath="$PROJECT_DIR$/src/ru/job4j/oop/Bug.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/job4j/oop/Fix.java" afterDir="false" />
+    <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="1.1.1. Конструктор по умолчанию [#173889]">
+      <change afterPath="$PROJECT_DIR$/src/ru/job4j/oop/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/job4j/test/Json.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ru/job4j/test/JsonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +65,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="ru.job4j.array" />
       <recent name="ru.job4j.test" />
+      <recent name="ru.job4j.array" />
       <recent name="ru.job4j.loop" />
       <recent name="ru.job4j" />
       <recent name="ru.job4j.condition" />
@@ -78,20 +80,7 @@
       <recent name="junit.framework.TestCase" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Prime">
-    <configuration name="Defragment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.array.Defragment" />
-      <module name="job4j_elementary" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.job4j.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Student">
     <configuration name="Prime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.job4j.test.Prime" />
       <module name="job4j_elementary" />
@@ -105,17 +94,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DefragmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.oop.Student" />
       <module name="job4j_elementary" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.job4j.array.*" />
+          <option name="PATTERN" value="ru.job4j.oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.job4j.array" />
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.array.DefragmentTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="job4j_elementary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.job4j.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.job4j.test" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.test.JsonTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="job4j_elementary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.job4j.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.job4j.test" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.test.JsonTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -135,29 +153,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MachineTest.when140by111" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="job4j_elementary" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.job4j.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.job4j.array" />
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.array.MachineTest" />
-      <option name="METHOD_NAME" value="when140by111" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Student" />
+        <item itemvalue="JUnit.JsonTest" />
+        <item itemvalue="JUnit.JsonTest.test" />
         <item itemvalue="Application.Prime" />
         <item itemvalue="JUnit.MachineTest" />
-        <item itemvalue="JUnit.MachineTest.when140by111" />
-        <item itemvalue="JUnit.DefragmentTest" />
-        <item itemvalue="Application.Defragment" />
       </list>
     </recent_temporary>
   </component>
@@ -169,13 +171,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599025808050</updated>
-    </task>
-    <task id="LOCAL-00018" summary="4.3.2. Оператор || [#333784]">
-      <created>1599469661778</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1599469661778</updated>
     </task>
     <task id="LOCAL-00019" summary="4.3.3. Логическое отрицание ! [#334072]">
       <created>1599470094139</created>
@@ -513,7 +508,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600845060395</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="1.1.1. Конструктор по умолчанию [#173889]">
+      <created>1600845186830</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1600845186830</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -529,7 +531,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="6.0.5. Массивы в тестах. [#226789]" />
     <MESSAGE value="6.1. Классический поиск перебором. [#33489]" />
     <MESSAGE value="6.2. Упорядочить массив. [#4441]" />
     <MESSAGE value="6.2.1. Выход за границу массива. [#226794]" />
@@ -554,7 +555,8 @@
     <MESSAGE value="6.8. Дефрагментация массива [#225]" />
     <MESSAGE value="6.9. Жадный алгоритм. Сдача в кофе машине [#34741]" />
     <MESSAGE value="1.1. Создание объекта [#165452]" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.1. Создание объекта [#165452]" />
+    <MESSAGE value="1.1.1. Конструктор по умолчанию [#173889]" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.1.1. Конструктор по умолчанию [#173889]" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1599074562016">
@@ -581,38 +583,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="281" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599026081288" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1600790485447">
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1600858210031">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600790485447" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1600790485447">
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600858210031" />
+    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1600858210031">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600790485447" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1600790485447">
+    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600858210031" />
+    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1600858210031">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600790485447" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1600790485447">
+    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600858210031" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1600858210031">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600790485447" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1600776804050">
+    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600858210031" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1600856062147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600776804050" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1600776804050">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600856062147" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1600856062147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600776804050" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1600776804050">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600856062147" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1600856062147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600776804050" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1600776804050">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600856062147" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1600856062147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600776804050" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600856062147" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1599489510983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -621,14 +623,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="434" key="VCS.EditChangelistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599132947960" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600790294165">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600845188317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600790294165" />
-    <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1600759585563">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600845188317" />
+    <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1600847614291">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600759585563" />
+    <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600847614291" />
     <state x="224" y="181" width="1736" height="856" key="dock-window-1" timestamp="1599757615446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
