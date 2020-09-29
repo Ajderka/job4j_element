@@ -19,12 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="2.1. Рефакторинг - Расстояние между точками. [#122587]">
-      <change afterPath="$PROJECT_DIR$/src/ru/job4j/test/Help1.java" afterDir="false" />
+    <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="2.2. Рефакторинг - Площадь треугольника. [#122642]">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/job4j/condition/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/job4j/condition/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/job4j/condition/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/job4j/condition/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ru/job4j/condition/TriangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ru/job4j/condition/TriangleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/job4j/condition/Max.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/job4j/condition/Max.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ru/job4j/condition/MaxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ru/job4j/condition/MaxTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +79,7 @@
       <recent name="junit.framework.TestCase" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TriangleTest.period1">
+  <component name="RunManager" selected="JUnit.MaxTest.whenMax5To4To3Then5">
     <configuration name="Help1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.job4j.test.Help1" />
       <module name="job4j_elementary" />
@@ -108,7 +106,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MaxTest.whenMax5To4To3Then5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="job4j_elementary" />
       <extension name="coverage">
         <pattern>
@@ -117,8 +115,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.job4j.condition" />
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.TriangleTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.MaxTest" />
+      <option name="METHOD_NAME" value="whenMax5To4To3Then5" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -157,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MaxTest.whenMax5To4To3Then5" />
         <item itemvalue="JUnit.TriangleTest.period1" />
         <item itemvalue="JUnit.TriangleTest.period" />
         <item itemvalue="Application.Help1" />
         <item itemvalue="Application.Point" />
-        <item itemvalue="JUnit.TriangleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -173,13 +172,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599025808050</updated>
-    </task>
-    <task id="LOCAL-00026" summary="5.0. Цикл for. Определение. [#3572]">
-      <created>1599755913465</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1599755913465</updated>
     </task>
     <task id="LOCAL-00027" summary="Test">
       <created>1599756004340</created>
@@ -517,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601356534420</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="2.2. Рефакторинг - Площадь треугольника. [#122642]">
+      <created>1601368271948</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1601368271948</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -533,7 +532,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="6.4.1. Сравнить последние элементы двух массивов [#304228]" />
     <MESSAGE value="6.4.1.1. Обход массива с последнего элемента [#361619]" />
     <MESSAGE value="6.4.2. Слово заканчивается на ... [#156317]" />
     <MESSAGE value="6.5. Поиск индекса в диапазоне. [#156318]" />
@@ -558,7 +556,8 @@
     <MESSAGE value="1.6. Взаимодействие объектов [#166087]" />
     <MESSAGE value="1.7. Состояние объекта [#167388]" />
     <MESSAGE value="2.1. Рефакторинг - Расстояние между точками. [#122587]" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.1. Рефакторинг - Расстояние между точками. [#122587]" />
+    <MESSAGE value="2.2. Рефакторинг - Площадь треугольника. [#122642]" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.2. Рефакторинг - Площадь треугольника. [#122642]" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1599074562016">
@@ -593,22 +592,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="281" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599026081288" />
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1601368064931">
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1601368240053">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601368064931" />
-    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1601368064931">
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601368240053" />
+    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1601368240053">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601368064931" />
-    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1601368064931">
+    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601368240053" />
+    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1601368240053">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601368064931" />
-    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1601368064931">
+    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601368240053" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1601368240053">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601368064931" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601368240053" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1601365496541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -633,14 +632,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="434" key="VCS.EditChangelistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599132947960" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601356536025">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601368273471">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601356536025" />
-    <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1601319108892">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601368273471" />
+    <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1601371564932">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601319108892" />
+    <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601371564932" />
     <state x="224" y="181" width="1736" height="856" key="dock-window-1" timestamp="1599757615446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
