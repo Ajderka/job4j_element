@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="4. Переопределение [#174890]" />
+    <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="5. Аннотация @Override [#174891]">
+      <change afterPath="$PROJECT_DIR$/src/ru/job4j/oop/Product.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +77,7 @@
       <recent name="junit.framework.TestCase" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReportUsage">
+  <component name="RunManager" selected="Application.Shop">
     <configuration name="Reduce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.job4j.max.Reduce" />
       <module name="job4j_elementary" />
@@ -102,17 +104,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PointTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Shop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.oop.Shop" />
       <module name="job4j_elementary" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.job4j.condition.*" />
+          <option name="PATTERN" value="ru.job4j.oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.job4j.condition" />
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.PointTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Shop" />
         <item itemvalue="Application.ReportUsage" />
         <item itemvalue="JUnit.UpperCaseTest.test" />
         <item itemvalue="JUnit.UpperCaseTest" />
         <item itemvalue="Application.Reduce" />
-        <item itemvalue="JUnit.PointTest" />
       </list>
     </recent_temporary>
   </component>
@@ -166,13 +166,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599025808050</updated>
-    </task>
-    <task id="LOCAL-00032" summary="5.6. Простые числа [#156314]">
-      <created>1600070467543</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1600070467543</updated>
     </task>
     <task id="LOCAL-00033" summary="5.7. Ипотека [#156315]">
       <created>1600071865554</created>
@@ -510,7 +503,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601548690684</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="5. Аннотация @Override [#174891]">
+      <created>1601585740924</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1601585740924</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -526,7 +526,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="6.5.3. Сортировка выборкой. [#156320]" />
     <MESSAGE value="6.6.1. Двухмерный массив. Вывод на консоль. [#226796]" />
     <MESSAGE value="6.6.2. Двухмерный массив. Циклы. [#306725]" />
     <MESSAGE value="6.6.3. Двухмерный массив. If. [#306727]" />
@@ -551,7 +550,8 @@
     <MESSAGE value="5.1. Зона видимости переменных [#180147]" />
     <MESSAGE value="3. Реализация профессий в коде [#6837]" />
     <MESSAGE value="4. Переопределение [#174890]" />
-    <option name="LAST_COMMIT_MESSAGE" value="4. Переопределение [#174890]" />
+    <MESSAGE value="5. Аннотация @Override [#174891]" />
+    <option name="LAST_COMMIT_MESSAGE" value="5. Аннотация @Override [#174891]" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1599074562016">
@@ -626,10 +626,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="434" key="VCS.EditChangelistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599132947960" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601548692257">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601585743419">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601548692257" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601585743419" />
     <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1601457870284">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
