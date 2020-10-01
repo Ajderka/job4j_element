@@ -19,13 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="3. Реализация профессий в коде [#6837]">
-      <change afterPath="$PROJECT_DIR$/src/ru/job4j/inheritance/HtmlReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/job4j/inheritance/JSONReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/job4j/inheritance/ReportUsage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/job4j/inheritance/TextReport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="4. Переопределение [#174890]" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -172,13 +166,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599025808050</updated>
-    </task>
-    <task id="LOCAL-00031" summary="5.5. Простое число [#171694]">
-      <created>1600066053117</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1600066053117</updated>
     </task>
     <task id="LOCAL-00032" summary="5.6. Простые числа [#156314]">
       <created>1600070467543</created>
@@ -516,7 +503,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601461214074</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="4. Переопределение [#174890]">
+      <created>1601548690684</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1601548690684</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -532,7 +526,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="6.5.2. Поиск минимума в диапазоне. [#179804]" />
     <MESSAGE value="6.5.3. Сортировка выборкой. [#156320]" />
     <MESSAGE value="6.6.1. Двухмерный массив. Вывод на консоль. [#226796]" />
     <MESSAGE value="6.6.2. Двухмерный массив. Циклы. [#306725]" />
@@ -557,7 +550,8 @@
     <MESSAGE value="4. Расстояние между точками в трехмерном пространстве. [#122643]" />
     <MESSAGE value="5.1. Зона видимости переменных [#180147]" />
     <MESSAGE value="3. Реализация профессий в коде [#6837]" />
-    <option name="LAST_COMMIT_MESSAGE" value="3. Реализация профессий в коде [#6837]" />
+    <MESSAGE value="4. Переопределение [#174890]" />
+    <option name="LAST_COMMIT_MESSAGE" value="4. Переопределение [#174890]" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1599074562016">
@@ -592,22 +586,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="281" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599026081288" />
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1601548601096">
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1601548673233">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601548601096" />
-    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1601548601096">
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601548673233" />
+    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1601548673233">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601548601096" />
-    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1601548601096">
+    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601548673233" />
+    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1601548673233">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601548601096" />
-    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1601548601096">
+    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601548673233" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1601548673233">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601548601096" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601548673233" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1601458308854">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -632,10 +626,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="434" key="VCS.EditChangelistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599132947960" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601461215236">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601548692257">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601461215236" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601548692257" />
     <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1601457870284">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
