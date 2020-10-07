@@ -22,5 +22,6 @@ public class Shop {
                 System.out.println(product.getName());
             }
         }
+        System.out.println(products.getClass());
     }
 }
