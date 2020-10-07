@@ -19,8 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="5. Аннотация @Override [#174891]">
-      <change afterPath="$PROJECT_DIR$/src/ru/job4j/oop/Product.java" afterDir="false" />
+    <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="6. Почему наследование - это плохо [#310013]">
+      <change afterPath="$PROJECT_DIR$/src/ru/job4j/oop/encapsulation/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/job4j/test/SumWithStopEl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,20 +79,7 @@
       <recent name="junit.framework.TestCase" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Shop">
-    <configuration name="Reduce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.max.Reduce" />
-      <module name="job4j_elementary" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.job4j.max.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SumWithStopEl">
     <configuration name="ReportUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.job4j.inheritance.ReportUsage" />
       <module name="job4j_elementary" />
@@ -110,6 +99,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.job4j.oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumWithStopEl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.test.SumWithStopEl" />
+      <module name="job4j_elementary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.job4j.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumWithStopEl" />
         <item itemvalue="Application.Shop" />
         <item itemvalue="Application.ReportUsage" />
         <item itemvalue="JUnit.UpperCaseTest.test" />
         <item itemvalue="JUnit.UpperCaseTest" />
-        <item itemvalue="Application.Reduce" />
       </list>
     </recent_temporary>
   </component>
@@ -166,13 +168,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599025808050</updated>
-    </task>
-    <task id="LOCAL-00033" summary="5.7. Ипотека [#156315]">
-      <created>1600071865554</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1600071865554</updated>
     </task>
     <task id="LOCAL-00034" summary="5.9. Крест в псевдографике. [#177182]">
       <created>1600076230789</created>
@@ -510,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601585740924</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="6. Почему наследование - это плохо [#310013]">
+      <created>1601586420324</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1601586420324</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -526,7 +528,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="6.6.1. Двухмерный массив. Вывод на консоль. [#226796]" />
     <MESSAGE value="6.6.2. Двухмерный массив. Циклы. [#306725]" />
     <MESSAGE value="6.6.3. Двухмерный массив. If. [#306727]" />
     <MESSAGE value="6.6.4. Размер элемента двухмерного массива. [#333583]" />
@@ -551,7 +552,8 @@
     <MESSAGE value="3. Реализация профессий в коде [#6837]" />
     <MESSAGE value="4. Переопределение [#174890]" />
     <MESSAGE value="5. Аннотация @Override [#174891]" />
-    <option name="LAST_COMMIT_MESSAGE" value="5. Аннотация @Override [#174891]" />
+    <MESSAGE value="6. Почему наследование - это плохо [#310013]" />
+    <option name="LAST_COMMIT_MESSAGE" value="6. Почему наследование - это плохо [#310013]" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1599074562016">
@@ -586,38 +588,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="281" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599026081288" />
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1601548673233">
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1601827496096">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601548673233" />
-    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1601548673233">
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601827496096" />
+    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1601827496096">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601548673233" />
-    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1601548673233">
+    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601827496096" />
+    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1601827496096">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601548673233" />
-    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1601548673233">
+    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601827496096" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1601827496096">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601548673233" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1601458308854">
+    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601827496096" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1601827197864">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601458308854" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1601458308854">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601827197864" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1601827197864">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601458308854" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1601458308854">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601827197864" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1601827197864">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601458308854" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1601458308854">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601827197864" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1601827197864">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601458308854" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601827197864" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1599489510983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -626,10 +628,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="434" key="VCS.EditChangelistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599132947960" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601585743419">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601586421355">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601585743419" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601586421355" />
     <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1601457870284">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
