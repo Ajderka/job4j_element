@@ -19,10 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="3.2. Удаление моделей из массива. [#310016]">
+    <list default="true" id="2ed3c345-12e7-457b-858d-a524f3ce0069" name="Default Changelist" comment="4. Сравнение моделей. Метод equals [#174893]">
+      <change afterPath="$PROJECT_DIR$/src/ru/job4j/io/Greeting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/job4j/io/MagicBall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/job4j/poly/DbStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/job4j/poly/FileStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/job4j/poly/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/job4j/poly/Store.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/job4j/pojo/License.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/job4j/pojo/License.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/job4j/pojo/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/job4j/pojo/Shop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +37,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit3 Test Class" />
+        <option value="JUnit4 Test Class" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -79,13 +83,26 @@
       <recent name="junit.framework.TestCase" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LicenseTest.eqName">
-    <configuration name="Library" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.pojo.Library" />
+  <component name="RunManager" selected="Application.MagicBall">
+    <configuration name="Greeting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.io.Greeting" />
       <module name="job4j_elementary" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.job4j.pojo.*" />
+          <option name="PATTERN" value="ru.job4j.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MagicBall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.io.MagicBall" />
+      <module name="job4j_elementary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.job4j.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,28 +154,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="job4j_elementary" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.job4j.pojo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.job4j.pojo" />
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.pojo.ShopTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MagicBall" />
+        <item itemvalue="Application.Greeting" />
         <item itemvalue="JUnit.LicenseTest.eqName" />
         <item itemvalue="Application.Shop" />
         <item itemvalue="JUnit.ShopDropTest" />
-        <item itemvalue="JUnit.ShopTest" />
-        <item itemvalue="Application.Library" />
       </list>
     </recent_temporary>
   </component>
@@ -170,13 +172,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599025808050</updated>
-    </task>
-    <task id="LOCAL-00039" summary="6.0.3.1. Массивы и цикл for-earch [#333581]">
-      <created>1600343507437</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1600343507437</updated>
     </task>
     <task id="LOCAL-00040" summary="6.0.4. Заполнить массив степенями чисел. [#33488]">
       <created>1600343811565</created>
@@ -514,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602076232978</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="4. Сравнение моделей. Метод equals [#174893]">
+      <created>1602077829961</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1602077829961</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -530,7 +532,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="6.7.3. Массив из диагонали матрицы. [#214128]" />
     <MESSAGE value="6.7.4. Выигрышные комбинации в сокобан [#53859]" />
     <MESSAGE value="6.8. Дефрагментация массива [#225]" />
     <MESSAGE value="6.9. Жадный алгоритм. Сдача в кофе машине [#34741]" />
@@ -555,7 +556,8 @@
     <MESSAGE value="3. Массивы и модели. [#174892]" />
     <MESSAGE value="3.1. Массив с пустыми ячейками [#176470]" />
     <MESSAGE value="3.2. Удаление моделей из массива. [#310016]" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.2. Удаление моделей из массива. [#310016]" />
+    <MESSAGE value="4. Сравнение моделей. Метод equals [#174893]" />
+    <option name="LAST_COMMIT_MESSAGE" value="4. Сравнение моделей. Метод equals [#174893]" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1599074562016">
@@ -590,22 +592,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="281" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599026081288" />
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1602076605580">
+    <state width="1877" height="277" key="GridCell.Tab.0.bottom" timestamp="1602139864788">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602076605580" />
-    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1602076605580">
+    <state width="1877" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602139864788" />
+    <state width="1877" height="277" key="GridCell.Tab.0.center" timestamp="1602139864788">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602076605580" />
-    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1602076605580">
+    <state width="1877" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602139864788" />
+    <state width="1877" height="277" key="GridCell.Tab.0.left" timestamp="1602139864788">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602076605580" />
-    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1602076605580">
+    <state width="1877" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602139864788" />
+    <state width="1877" height="277" key="GridCell.Tab.0.right" timestamp="1602139864788">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602076605580" />
+    <state width="1877" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602139864788" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1601827197864">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -630,14 +632,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="434" key="VCS.EditChangelistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599132947960" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602076234687">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602077832111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602076234687" />
-    <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1602075685550">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602077832111" />
+    <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1602077626478">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602075685550" />
+    <state x="731" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602077626478" />
     <state x="224" y="181" width="1736" height="856" key="dock-window-1" timestamp="1599757615446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
