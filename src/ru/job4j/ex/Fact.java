@@ -1,13 +1,7 @@
 package ru.job4j.ex;
 
 public class Fact {
-
-    public static void main(String[] args) {
-        Fact fact = new Fact();
-        System.out.println("Fact  " + fact.calc(-5));
-    }
-
-    public int calc(int n) {
+    public static int calc(int n) {
         if (n < 0) {
             throw new IllegalArgumentException("argument cannot be negative");
         }
