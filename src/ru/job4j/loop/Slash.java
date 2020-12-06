@@ -23,6 +23,6 @@ public class Slash {
         System.out.println("Draw by 3");
         draw(3);
         System.out.println("Draw by 13");
-        draw(13);
+        draw(5);
     }
 }
