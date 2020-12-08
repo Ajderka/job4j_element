@@ -2,9 +2,13 @@ package ru.job4j.stream;
 
 import org.junit.Before;
 import org.junit.Test;
+import ru.job4j.stream.student.School;
+import ru.job4j.stream.student.Student;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.function.Predicate;
 
 import static org.hamcrest.core.Is.is;
@@ -24,6 +28,13 @@ public class SchoolTest {
         students.add(new Student(70, "Surname7"));
         students.add(new Student(80, "Surname8"));
         students.add(new Student(90, "Surname9"));
+    }
+
+    @Test
+    public void whenCollectToMap() {
+        School school = new School();
+        Map<String, Student> map = school.toMap(students);
+        System.out.println(map);
     }
 
     @Test
