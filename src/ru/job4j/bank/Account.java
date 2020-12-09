@@ -6,6 +6,9 @@ public class Account {
     private String requisite;
     private double balance;
 
+    public Account() {
+    }
+
     public Account(String requisite, double balance) {
         this.requisite = requisite;
         this.balance = balance;
