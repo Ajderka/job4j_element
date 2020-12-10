@@ -1,6 +1,7 @@
 package ru.job4j.stream;
 
 import java.util.List;
+import java.util.Map;
 
 public class TakeWhile {
     public static void main(String[] args) {
