@@ -22,7 +22,7 @@ public class PhoneDictionary {
                 || x.getPhone().equals(key)
                 || x.getSurname().equals(key);
         ArrayList<Person> result = new ArrayList<>();
-        for (Person p : persons) {
+        for (var p : persons) {
             if (combine.test(p)) {
                 result.add(p);
             }
