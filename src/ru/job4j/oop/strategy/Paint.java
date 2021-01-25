@@ -9,7 +9,5 @@ public class Paint {
         Paint context = new Paint();
         Shape triangle = new Triangle();
         context.draw(triangle);
-        Shape square = new Square();
-        context.draw(square);
     }
 }
